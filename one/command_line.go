@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// 命令行输入
 func osTest() {
 	var s, sep string
 	for i := 1; i < len(os.Args); i++ {
@@ -15,6 +16,11 @@ func osTest() {
 	fmt.Println(s)
 }
 
+// s := ""
+// var s string
+// var s = ""
+// var s string = ""
+// 四种声明方式
 // range 产生一对值 索引和值
 func osTest2() {
 	s, sep := "", ""

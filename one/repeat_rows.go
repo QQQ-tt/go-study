@@ -1,4 +1,4 @@
-package main
+package one
 
 import (
 	"bufio"
@@ -6,7 +6,16 @@ import (
 	"os"
 )
 
-func main() {
+// 1
+// 输入：1
+// 1
+// 输入：1
+// 1
+// 输入：1
+// exit
+// 输入：exit
+// 3	1
+func repeatRows() {
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {
